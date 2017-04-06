@@ -1,7 +1,7 @@
 'use strict';
-function funcSushi(){
-var numCorrect = 0;
 
+var numCorrect = 0;
+function funcSushi(){
 var sushi = prompt('Do you think I like sushi?');
 if (sushi.toLowerCase() == 'yes'){
   alert('You were correct!');
